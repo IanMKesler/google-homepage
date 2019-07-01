@@ -1,11 +1,52 @@
+body{
+    font-family: arial,sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.navbar {
+    font-size: 13px;
+}
+
 .left-nav{
     display: inline-block;
+    width: 100px;
+    padding-top: 15px;
+    text-align: center;
+    opacity: 0.75;
 }
 
 .right-nav{
     display: inline-block;
     float: right;
 }
+
+#text{
+    display: inline-block;
+    opacity: 0.75;
+}
+
+#images{
+    display: inline-block;
+    padding: 7px;
+   
+}
+
+#apps{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+
+#account{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
 
 .logo{
     position: absolute;
@@ -63,8 +104,13 @@
 footer{
     position: absolute;
     bottom: 0;
-    width:100%;
-    padding-bottom: 30px;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 13px;
+    opacity: 0.75;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
 }
 .left-foot{
     display: inline-block;
